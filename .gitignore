@@ -1,0 +1,19 @@
+# Secrets — never commit these
+.env
+
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Inspect eval logs (often large; commit selectively if you want)
+logs/
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
